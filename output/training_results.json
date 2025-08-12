@@ -1,0 +1,32 @@
+{
+  "linear_regression": {
+    "temperature_mae": 0.0525484962651505,
+    "temperature_rmse": 0.07045269147382498,
+    "temperature_r2": 0.9939109717147064,
+    "humidity_mae": 0.013914876595909913,
+    "humidity_rmse": 0.017449672571082885,
+    "humidity_r2": 0.9996299434880828,
+    "light_intensity_mae": 0.04043082623037829,
+    "light_intensity_rmse": 0.047862266900923885,
+    "light_intensity_r2": 0.9971814642836943,
+    "overall_mae": 0.03563139969714623,
+    "overall_rmse": 0.05019584777528665,
+    "overall_r2": 0.9969074598288278,
+    "map_score": 0.9969074598288278
+  },
+  "random_forest": {
+    "temperature_mae": 0.06945893692123808,
+    "temperature_rmse": 0.08383129748013966,
+    "temperature_r2": 0.9913788502389804,
+    "humidity_mae": 0.08209720119120388,
+    "humidity_rmse": 0.10082132434144833,
+    "humidity_r2": 0.9876462649670388,
+    "light_intensity_mae": 0.07876196145108064,
+    "light_intensity_rmse": 0.11140229687710355,
+    "light_intensity_r2": 0.9847304828413669,
+    "overall_mae": 0.07677269985450753,
+    "overall_rmse": 0.09933629351628656,
+    "overall_r2": 0.9879185326824621,
+    "map_score": 0.9879185326824621
+  }
+}

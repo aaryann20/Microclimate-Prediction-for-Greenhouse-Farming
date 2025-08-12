@@ -1,0 +1,21 @@
+{
+  "model_type": "linear_regression",
+  "performance_metrics": {
+    "temperature_mae": 0.0525484962651505,
+    "temperature_rmse": 0.07045269147382498,
+    "temperature_r2": 0.9939109717147064,
+    "humidity_mae": 0.013914876595909913,
+    "humidity_rmse": 0.017449672571082885,
+    "humidity_r2": 0.9996299434880828,
+    "light_intensity_mae": 0.04043082623037829,
+    "light_intensity_rmse": 0.047862266900923885,
+    "light_intensity_r2": 0.9971814642836943,
+    "overall_mae": 0.03563139969714623,
+    "overall_rmse": 0.05019584777528665,
+    "overall_r2": 0.9969074598288278,
+    "map_score": 0.9969074598288278
+  },
+  "training_data": "train.csv",
+  "feature_count": 15,
+  "saved_at": "2025-08-12T18:43:13.515815"
+}
