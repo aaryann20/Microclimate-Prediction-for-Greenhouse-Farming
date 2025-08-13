@@ -1,0 +1,21 @@
+{
+  "model_type": "gradient_boosting",
+  "performance_metrics": {
+    "temperature_mae": 0.16295249335425638,
+    "temperature_rmse": 0.20449837248042912,
+    "temperature_r2": 0.9516813922095683,
+    "humidity_mae": 0.37282066766024563,
+    "humidity_rmse": 0.5029261798498567,
+    "humidity_r2": 0.7592013911231099,
+    "light_intensity_mae": 0.07612303240715033,
+    "light_intensity_rmse": 0.13824445888638728,
+    "light_intensity_r2": 0.9803024801137513,
+    "overall_mae": 0.20396539780721745,
+    "overall_rmse": 0.3234531687577583,
+    "overall_r2": 0.8970617544821432,
+    "map_score": 0.8970617544821432
+  },
+  "training_data": "train_large.csv",
+  "feature_count": 15,
+  "saved_at": "2025-08-13T10:29:51.212335"
+}
