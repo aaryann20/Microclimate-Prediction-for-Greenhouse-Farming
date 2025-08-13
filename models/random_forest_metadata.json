@@ -8,7 +8,7 @@
     "humidity_rmse": 0.411248713423465,
     "humidity_r2": 0.8389893544228729,
     "light_intensity_mae": 0.07419298019002653,
-    "light_intensity_rmse": 0.15168476885240534,
+    "light_intensity_rmse": 0.15168476885240537,
     "light_intensity_r2": 0.9762862613096794,
     "overall_mae": 0.1717608653984866,
     "overall_rmse": 0.2829167278128843,
@@ -17,5 +17,5 @@
   },
   "training_data": "train_large.csv",
   "feature_count": 15,
-  "saved_at": "2025-08-13T10:29:51.208145"
+  "saved_at": "2025-08-13T11:20:35.264434"
 }

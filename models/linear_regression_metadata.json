@@ -1,21 +1,21 @@
 {
   "model_type": "linear_regression",
   "performance_metrics": {
-    "temperature_mae": 0.1934937503814471,
-    "temperature_rmse": 0.24941260365324594,
-    "temperature_r2": 0.9281260534134361,
-    "humidity_mae": 0.5557621225908735,
-    "humidity_rmse": 0.6948487474215402,
-    "humidity_r2": 0.5403512909780324,
-    "light_intensity_mae": 0.30549588394157,
-    "light_intensity_rmse": 0.41056576539505923,
-    "light_intensity_r2": 0.8262673082819414,
-    "overall_mae": 0.35158391897129687,
-    "overall_rmse": 0.4877108693918305,
-    "overall_r2": 0.7649148842244701,
-    "map_score": 0.7649148842244701
+    "temperature_mae": 0.0525484962651505,
+    "temperature_rmse": 0.07045269147382498,
+    "temperature_r2": 0.9939109717147064,
+    "humidity_mae": 0.013914876595909913,
+    "humidity_rmse": 0.017449672571082885,
+    "humidity_r2": 0.9996299434880828,
+    "light_intensity_mae": 0.04043082623037829,
+    "light_intensity_rmse": 0.047862266900923885,
+    "light_intensity_r2": 0.9971814642836943,
+    "overall_mae": 0.03563139969714623,
+    "overall_rmse": 0.05019584777528665,
+    "overall_r2": 0.9969074598288278,
+    "map_score": 0.9969074598288278
   },
-  "training_data": "train_large.csv",
+  "training_data": "train.csv",
   "feature_count": 15,
-  "saved_at": "2025-08-13T10:29:51.175451"
+  "saved_at": "2025-08-13T11:20:23.281431"
 }

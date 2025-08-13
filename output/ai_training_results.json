@@ -1,0 +1,17 @@
+{
+  "neural_network": {
+    "temperature_mae": 0.27050850944695554,
+    "temperature_rmse": 0.752620779722051,
+    "temperature_r2": 0.34553396868165465,
+    "humidity_mae": 0.5309700269168575,
+    "humidity_rmse": 0.6954784815911268,
+    "humidity_r2": 0.5395177637827857,
+    "light_intensity_mae": 0.20833629582841823,
+    "light_intensity_rmse": 0.5128074120512807,
+    "light_intensity_r2": 0.7289654416172484,
+    "overall_mae": 0.336604944064077,
+    "overall_rmse": 0.6615889454639889,
+    "overall_r2": 0.5380057246938964,
+    "map_score": 0.5380057246938962
+  }
+}

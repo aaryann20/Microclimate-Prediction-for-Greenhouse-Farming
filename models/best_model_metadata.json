@@ -1,0 +1,21 @@
+{
+  "model_type": "random_forest",
+  "performance_metrics": {
+    "temperature_mae": 0.16504228173608737,
+    "temperature_rmse": 0.21907042528553713,
+    "temperature_r2": 0.9445499166682003,
+    "humidity_mae": 0.2760473342693458,
+    "humidity_rmse": 0.411248713423465,
+    "humidity_r2": 0.8389893544228729,
+    "light_intensity_mae": 0.07419298019002654,
+    "light_intensity_rmse": 0.15168476885240534,
+    "light_intensity_r2": 0.9762862613096794,
+    "overall_mae": 0.17176086539848665,
+    "overall_rmse": 0.2829167278128843,
+    "overall_r2": 0.9199418441335844,
+    "map_score": 0.9199418441335844
+  },
+  "training_data": "train_large.csv",
+  "feature_count": 15,
+  "saved_at": "2025-08-13T10:48:51.766459"
+}

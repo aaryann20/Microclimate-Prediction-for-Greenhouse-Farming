@@ -12,6 +12,7 @@ sys.path.append(str(Path(__file__).parent))
 
 from data_preprocessing import DataLoader, DataPreprocessor, FeatureEngineer
 from model_utils import ModelTrainer, ModelEvaluator, ModelRegistry
+from ai_models import create_advanced_ai_system, NeuralNetworkPredictor
 from config import setup_logging, MODEL_CONFIG, OUTPUT_DIR
 
 def main():
@@ -19,7 +20,7 @@ def main():
     parser = argparse.ArgumentParser(description='Train microclimate prediction models')
     parser.add_argument('--data', default='sample_data.csv', help='Training data file')
     parser.add_argument('--models', nargs='+', default=['all'], 
-                       choices=['linear_regression', 'random_forest', 'gradient_boosting', 'neural_network', 'all'],
+                       choices=['linear_regression', 'random_forest', 'gradient_boosting', 'neural_network', 'ai_ensemble', 'all'],
                        help='Models to train')
     parser.add_argument('--save-best', action='store_true', help='Save only the best performing model')
     
@@ -48,7 +49,7 @@ def main():
         
         # Train models
         logger.info("Training models...")
-        models_to_train = args.models if 'all' not in args.models else ['linear_regression', 'random_forest', 'gradient_boosting', 'neural_network']
+        models_to_train = args.models if 'all' not in args.models else ['linear_regression', 'random_forest', 'gradient_boosting', 'neural_network', 'ai_ensemble']
         
         trained_models = {}
         evaluator = ModelEvaluator()
@@ -63,6 +64,11 @@ def main():
             elif model_type == 'neural_network':
                 model = trainer.train_neural_network(X_train, y_train)
                 trained_models[model_type] = model
+            elif model_type == 'ai_ensemble':
+                logger.info("Training Advanced AI Ensemble...")
+                ai_system = create_advanced_ai_system()
+                ai_results = ai_system.train_ensemble(X_train, y_train)
+                trained_models[model_type] = ai_system
             
             # Evaluate model
             metrics = evaluator.evaluate_regression(trained_models[model_type], X_test, y_test)
